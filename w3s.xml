@@ -1,18 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE title [ <!ELEMENT title ANY >
-<!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>The Blog</title>
-<link>http://example.com/</link>
-<description>A blog about things</description>
-<lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
-<item>
-<title>&xxe;</title>
-<link>http://example.com</link>
-<description>a post</description>
-<author>author@example.com</author>
-<pubDate>Mon, 03 Feb 2014 00:00:00 -0000</pubDate>
-</item>
-</channel>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>My Sample RSS Feed</title>
+    <link>https://example.com/</link>
+    <description>This is a basic RSS feed example.</description>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 14 Nov 2025 09:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>First Article</title>
+      <link>https://example.com/article1</link>
+      <description>This is the description of the first article.</description>
+      <pubDate>Thu, 14 Nov 2025 09:00:00 GMT</pubDate>
+      <guid>1</guid>
+    </item>
+
+    <item>
+      <title>Second Article</title>
+      <link>https://example.com/article2</link>
+      <description>This is the description of the second article.</description>
+      <pubDate>Thu, 14 Nov 2025 10:00:00 GMT</pubDate>
+      <guid>2</guid>
+    </item>
+
+  </channel>
 </rss>
