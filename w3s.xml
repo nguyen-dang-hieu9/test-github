@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>My Sample RSS Feed</title>
-    <link>https://example.com/</link>
-    <description>This is a basic RSS feed example.</description>
-    <language>en-US</language>
-    <lastBuildDate>Thu, 14 Nov 2025 09:00:00 GMT</lastBuildDate>
+    <title>Example RSS Feed</title>
+    <link>https://www.example.com</link>
+    <description>This is a sample RSS feed for testing.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Nov 2025 12:00:00 +0000</lastBuildDate>
 
     <item>
       <title>First Article</title>
-      <link>https://example.com/article1</link>
-      <description>This is the description of the first article.</description>
-      <pubDate>Thu, 14 Nov 2025 09:00:00 GMT</pubDate>
-      <guid>1</guid>
+      <link>https://www.example.com/articles/1</link>
+      <description>This is the first article in the feed.</description>
+      <pubDate>Thu, 14 Nov 2025 10:00:00 +0000</pubDate>
     </item>
-
-    <item>
-      <title>Second Article</title>
-      <link>https://example.com/article2</link>
-      <description>This is the description of the second article.</description>
-      <pubDate>Thu, 14 Nov 2025 10:00:00 GMT</pubDate>
-      <guid>2</guid>
-    </item>
-
   </channel>
 </rss>
